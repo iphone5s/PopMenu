@@ -78,6 +78,7 @@
         [weakSelf removeFromSuperview];
     };
     _realTimeBlur.hasTapGestureEnable = YES;
+    _realTimeBlur.blurStyle = XHBlurStyleBlackTranslucent;
 }
 
 #pragma mark - 公开方法
